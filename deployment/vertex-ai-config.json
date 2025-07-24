@@ -1,0 +1,21 @@
+{
+  "project": "qwiklabs-gcp-03-0c4c75133f4c",
+  "model": "gemini-1.5-pro",
+  "temperature": 0.4,
+  "topP": 0.9,
+  "topK": 40,
+  "maxTokens": 1024,
+  "context": {
+    "enabled": true,
+    "sourceType": "file",
+    "fileName": "insurance-policy.pdf"
+  },
+  "safetySettings": {
+    "harmCategory": "HARM_CATEGORY_UNSPECIFIED",
+    "threshold": "BLOCK_NONE"
+  },
+  "output": "text",
+  "responseType": "structured",
+  "grounding": true,
+  "autoSaveConversations": false
+}
